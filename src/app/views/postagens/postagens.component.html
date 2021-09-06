@@ -1,0 +1,21 @@
+<table class="table table-striped">
+
+    <thead>
+        <tr>
+            <th scope="col">UserId</th>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Body</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let postagens of postagensArray">
+            <td>{{postagens.userId}}</td>
+            <td>{{postagens.id}}</td>
+            <td>{{postagens.title}}</td>
+            <td>{{postagens.body}}</td>
+        </tr>
+
+    </tbody>
+</table>

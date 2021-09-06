@@ -1,0 +1,21 @@
+<table class="table table-striped">
+
+    <thead>
+        <tr>
+            <th scope="col">UserId</th>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let albuns of albunsArray">
+            <td>{{albuns.userId}}</td>
+            <td>{{albuns.id}}</td>
+            <td>{{albuns.title}}</td>
+    
+        </tr>
+
+    </tbody>
+</table>
